@@ -1,0 +1,34 @@
+pipeline {
+    agent any
+    stages {
+        stage('pull') {
+            steps {
+                 git 'https://github.com/ravdy/maven-hello-world.git'
+
+                echo "Hello World!"
+            }
+        }
+    }
+}
+
+
+
+----
+
+git pull
+
+pipeline {
+    agent any
+    stages {
+        stage('pull') {
+            steps {
+                 git 'https://github.com/ravdy/maven-hello-world.git'
+
+                echo "Hello World!"
+            }
+        }
+    }
+}
+
+
+
