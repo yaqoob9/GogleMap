@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                 git 'https://github.com/ravdy/maven-hello-world.git'
-
+              
                 echo "Hello World!"
             }
         }
@@ -22,8 +21,7 @@ pipeline {
     stages {
         stage('pull') {
             steps {
-                 git 'https://github.com/ravdy/maven-hello-world.git'
-
+                
                 echo "Hello World!"
             }
         }
